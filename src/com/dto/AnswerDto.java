@@ -1,11 +1,11 @@
-package com.view;
+package com.dto;
 
 import java.util.Arrays;
 
 import com.entity.Answer;
 import com.entity.Question;
 
-public class AnswerView {
+public class AnswerDto {
 
 	private Question question;
 	private Answer[] answers;

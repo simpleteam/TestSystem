@@ -1,16 +1,16 @@
-package com.view;
+package com.dto;
 
 import java.util.Arrays;
 
-public class AnswerViewList {
+public class AnswerListDto {
 
-	private AnswerView[] answerViews;
+	private AnswerDto[] answerViews;
 	
-	public AnswerView[] getAttribs() {
+	public AnswerDto[] getAttribs() {
 		return answerViews;
 	}
 
-	public void setAttribs(AnswerView[] attribs) {
+	public void setAttribs(AnswerDto[] attribs) {
 		this.answerViews = attribs;
 	}
 	
